@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/home.css">
+  <script src="/js/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/6e7b88c5e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <section class="hero is-mobile" id="particles-js">
+    
+    <nav class="navbar is-transparent">
+      <div class="container">
+          <div class="navbar-brand">
+              <a class="navbar-item" href="../">
+                  <img src="/src/img/logo.png" width="90" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+              <div class="navbar-end">
+                  <div class="tabs is-right">
+                      <ul>
+                          
+                          <li><a href="">Blog</a></li>
+                          <li><a href="">Proyectos</a></li>
+                          <li><a href="">Contactame</a></li>
+                          
+                      </ul>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+    
+        <div class="hero-body is-mobile">
+          <div class="container has-text-centered">
+              <h1 class="title is-uppercase is-family-code glitch" data-text="Carlos Sarmiento">
+                  Carlos Sarmiento
+              </h1>
+              <h2 class="subtitle has-text-centered is-inline-flex">
+                 Ingeniero Industrial & Desarrollador web
+                  
+              </h2>
+          </div>
+      </div>
+    
+   
+
+    
+    <footer class="footer">
+      <div class="social has-text-centered">
+         <a href="http://github.com/sarmiente" target="_blank"><span class="icon"><i class="fab fa-github"></i></span></a>
+         <a href="http://www.instagram.com/sarmiente" target="_blank"><span class="icon"><i class="fab fa-instagram"></i></span></a>
+         <a href="https://facebook.com/carlosarmientopinto" target="_blank"><span class="icon"><i class="fab fa-facebook"></i></span></a>
+         <a href="https://twitter.com/_sarmiente" target="_blank"><span class="icon"><i class="fab fa-twitter"></i></span></a>
+        
+         <p>
+          <strong>Sarmiente 2020 © Todos los derechos reservados</strong>.
+        </p>
+        
+          <p>
+          The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+        </p>
+      </div>
+      
+    </footer>
+    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+</section>
+ 
+
+
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <script type="text/javascript">
+  particlesJS("particles-js", {"particles":{"number":{"value":83,"density":{"enable":true,"value_area":461.194221302933}},"color":{"value":"#000000"},"shape":{"type":"circle","stroke":{"width":1,"color":"#000000"},"polygon":{"nb_sides":4},"image":{"src":"/","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1.5,"opacity_min":0.1,"sync":false}},"size":{"value":2,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#000000","opacity":0.2324947488255008,"width":0.9620472365193136},"move":{"enable":true,"speed":8,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":881.8766334760375,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+  </script>
+
+</body>
+</html>
