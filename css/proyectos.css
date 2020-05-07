@@ -1,12 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+nav{
+    margin-top: -20px;
 }
-nav {
-    padding: 0px;
-    margin: 0px;
-}
+
 .navbar-menu li  {
     text-transform: uppercase;
     font-weight: bold;
@@ -17,9 +13,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
 }
-section article #btn {
-    margin-left: 5px;
-}
+
 .container {
     padding: 20px;
 }
@@ -30,9 +24,14 @@ footer{
     background: transparent !important;
   }
 
-@media screen and (min-width: 1020px){
-   .navbar-menu .tabs ul{
-        display: flex;
-    }
-}
+
+  @media screen and (min-width: 1020px){
+    .navbar-menu .tabs ul{
+         display: flex;
+     }
+     .column .container {
+       margin-top: 10px;
+     }
+  }
+  
 
