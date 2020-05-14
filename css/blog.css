@@ -1,15 +1,34 @@
-.navbar-menu li  {
-  text-transform: uppercase;
-  font-weight: bold;
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  height: auto;
+}
+
 .navbar-menu .tabs ul{
+  font-family: 'Economica', sans-serif;
   display: block;
+  font-size: 22px;
 }
+#navbarMenu {
+  background: transparent !important;
+}
+
+.column article .title {
+  padding-bottom: 10px;
+}
+
 footer{
   background: transparent !important;
 }
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1020px) {
   .navbar-menu .tabs ul{
        display: flex;
    }
@@ -17,4 +36,3 @@ footer{
      margin-top: 10px;
    }
 }
-

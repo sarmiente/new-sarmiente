@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
 
 nav{
     margin-top: -20px;
 }
 
-.navbar-menu li  {
-    text-transform: uppercase;
-    font-weight: bold;
-}
+
 .navbar-menu .tabs ul{
+    font-family: 'Economica', sans-serif;
     display: block;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 22px;
 }
 
 .container {

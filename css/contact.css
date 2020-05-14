@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-menu .tabs ul{
+  font-family: 'Economica', sans-serif;
+  display: block;
+  font-size: 22px;
+}
+
 .social-media {
     margin-top: 30px;
   }
@@ -9,13 +28,6 @@
       margin-bottom: 20px;
   }
 
-.navbar-menu li  {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.navbar-menu .tabs ul{
-    display: block;
-}
 
 @media screen and (min-width: 769px){
     .hero-body .form {
